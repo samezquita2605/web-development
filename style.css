@@ -44,7 +44,7 @@ section {
 
 h1 {
   font-family: Kaushan Script, sans-serif;
-  font-size: 100px;
+  font-size: 80px;
   margin-bottom: 0;
 }
 
@@ -83,38 +83,6 @@ a:focus {
 /* Home Section */
 .title-group {
   text-align: center;
-}
-
-/* About section */
-.about-container {
-  display: flex;
-}
-.photo-container {
-  border: 1px solid var(--secondary-color);
-  width: auto;
-  border-radius: 50%;
-  background: var(--background);
-  box-shadow: var(--box-shadow);
-}
-
-/* Skills Section */
-.skills-container {
-  display: flex;
-}
-
-.image-container {
-  border: 1px solid var(--secondary-color);
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin-right: 25px;
-  width: auto;
-  background: var(--background);
-  box-shadow: var(--box-shadow);
-}
-
-img {
-  height: 300px;
-  width: 300px;
 }
 
 /* Projects Section */
@@ -181,18 +149,6 @@ button:hover:not(.outline) {
 p {
   margin: 0;
   line-height: 25px;
-}
-
-/* Contact Section */
-.fab {
-  font-size: 100px;
-  margin-right: 50px;
-  cursor: pointer;
-  color: var(--primary-color);
-}
-
-.fab:hover {
-  color: var(--on-background);
 }
 
 /* Dark Mode Toggle */
